@@ -1,0 +1,28 @@
+{% extends "byn/baseynav.html" %}   
+{% block tittle %} Bienvenido! {% endblock %}
+
+{% block content %}
+{%load static%}
+<div class="box ar">   
+  <div class="row">
+    <div class="col-md-7">        
+        <h1>Hola!</h1>
+        <p>Soy un estudiante de programacion y analista de sistemas.</p>
+        <p>La finalidad de esta web es exponer mi portafolio,</p>
+        <p>para ello proximamente estara disponible en la navegacion de esta web el acceso al catalogo el cual desplegará una pequeña imagen previa de cada pagina y si esta disponible el vinculo de acceso web</p>
+    
+    </div>
+    <div class="col-md-5">
+        <img class="img" src="{% static 'landing/200.gif' %}" alt="el">
+    </div>        
+  </div>      
+</div>
+<div class="box md">
+  <p>proximamente</p>
+</div>
+<div class="box md">
+  <p>proximamente</p>
+
+</div>
+
+    {%endblock%}
