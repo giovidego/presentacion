@@ -15,4 +15,4 @@ from whitenoise import WhiteNoise
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Mi_pagina.settings')
 
 application = get_wsgi_application()
-application = WhiteNoise(application, root=os.path.join(Path(__file__).resolve().parent, '/staticfiles'))
+application = WhiteNoise(application)
